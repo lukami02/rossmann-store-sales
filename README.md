@@ -4,6 +4,8 @@
 
 *An end-to-end Machine Learning pipeline for retail sales prediction using XGBoost and Optuna.*
 
+</div>
+
 ## 📌 Overview
 
 This repository contains a complete machine learning solution for forecasting daily sales across **1,115 Rossmann drugstores**. The approach leverages a global **XGBoost Regressor** enhanced by rigorous feature engineering and automated hyperparameter tuning via **Optuna**, achieving an **RMSPE of 0.10385** on the Kaggle leaderboard.
@@ -22,7 +24,10 @@ This repository contains a complete machine learning solution for forecasting da
 ## 📊 Results
 
 **Evaluation Metric Formula:**
-$$\text{RMSPE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} \left( \frac{y_i - \hat{y}_i}{y_i} \right)^2}$$
+
+$$
+\text{RMSPE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} \left( \frac{y_i - \hat{y}_i}{y_i} \right)^2}
+$$
 
 | Model Configuration | Public Leaderboard RMSPE |
 | :--- | :---: |
@@ -41,3 +46,4 @@ $$\text{RMSPE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} \left( \frac{y_i - \hat{y}_i}{
 ├── latex-izvestaj/        # LaTeX source files for detailed research report
 ├── project.ipynb          # Main Jupyter Notebook (EDA, pipeline, Optuna & XGBoost)
 └── README.md              # Project documentation
+```
