@@ -1,0 +1,25 @@
+# Data files
+*.csv
+train.csv
+store.csv
+test.csv
+
+# Python / Jupyter cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+op_env/
+
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
